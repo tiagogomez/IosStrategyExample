@@ -12,19 +12,23 @@ import Foundation
  */
 class PayByCreditCard: PayStrategy {
     
-    var card: CreditCard?
+    var cardCVV: String?
     
     func collectPaymentDetails() throws {
-        /**
-        * Collect credit card data.
-        */
-        card = CreditCard(number: "311341", date: Date(), cvv: "Holi")
+
+        guard let cvv = cardCVV else {
+            print("Failure")
+            return
+        }
+        
+        let card = MockCreditCardService.getCreditCardData()
+        guard MockCreditCardService.validateCVV(cvv: cvv, creditCard: card) else {
+            print("Failure")
+            return
+        }
     }
     
     func pay(paymentAmount: Int) -> Bool {
-        /**
-        * After card validation we can charge customer's credit card.
-        */
-        return true
+        return MockCreditCardService.payWithCard(amount: paymentAmount)
     }
 }

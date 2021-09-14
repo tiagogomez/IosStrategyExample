@@ -12,21 +12,24 @@ import Foundation
  */
 class PayByPayPal: PayStrategy {
     
-    var email: String?
-    var password: String?
-    var isSignedIn: Bool?
+    var userEmail: String?
     
     func collectPaymentDetails() throws {
-        /**
-        * Collect customer's data.
-        */
+        guard let user = userEmail else {
+            print("Failure")
+            return
+        }
+        
+        let userData = MockPayPalService.getUserData()
+        
+        guard MockPayPalService.validateUser(user: user, userData: userData) else {
+            print("Failure")
+            return
+        }
     }
     
     func pay(paymentAmount: Int) -> Bool {
-        /**
-        * Save customer data for future shopping attempts.
-        */
-        return true
+        return MockPayPalService.payWithPayPal(amount: paymentAmount)
     }
 }
 

@@ -12,14 +12,18 @@ class PaymentViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     private var order = OrderContext()
-    private var selectedStrategy: PayStrategy?
+    private var payPalStrategy = PayByPayPal()
+    private var crediCardStrategy = PayByCreditCard()
     private var selectedRow: PaymentMethods?
     
+    @IBOutlet weak var costTextField: UITextField!
+    @IBOutlet weak var cvvTextField: UITextField!
+    @IBOutlet weak var payPalTextField: UITextField!
     
     enum PaymentMethods: Int, CaseIterable {
         
-        case creditCard
         case payPal
+        case creditCard
     }
     
     override func viewDidLoad() {
@@ -33,15 +37,36 @@ class PaymentViewController: UIViewController {
         tableView.isScrollEnabled = false
     }
     
+    private func collectViewData() {
+        let cost = Int(costTextField.text ?? "0") ?? 0
+        order.setTotalCost(cost: cost)
+        
+        let paypalData = payPalTextField.text
+        payPalStrategy.userEmail = paypalData
+        
+        let cvv = cvvTextField.text
+        crediCardStrategy.cardCVV = cvv
+    }
+    
     @IBAction func payButtonPressed(_ sender: Any) {
         /**
          * Client code
          */
-        
-        order.setTotalCost(cost: 10000)
+        collectViewData()
         order.setClosed()
-        order.processOrder()
-        order.payOrder()
+        do {
+            try order.processOrder()
+        } catch {
+            
+        }
+        do {
+            guard try order.payOrder() else {
+                
+                return
+            }
+        } catch {
+            
+        }
     }
 }
 
@@ -55,13 +80,13 @@ extension PaymentViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         switch indexPath.row {
-        case PaymentMethods.creditCard.rawValue:
-            cell.imageView?.image = UIImage(named: "Visa")
-            cell.textLabel?.text = "Pago Tarjeta"
-            cell.accessoryType = (indexPath.row == selectedRow?.rawValue) ? .checkmark : .none
         case PaymentMethods.payPal.rawValue:
             cell.imageView?.image = UIImage(named: "PayPal")
             cell.textLabel?.text = "Pago PayPal"
+            cell.accessoryType = (indexPath.row == selectedRow?.rawValue) ? .checkmark : .none
+        case PaymentMethods.creditCard.rawValue:
+            cell.imageView?.image = UIImage(named: "Visa")
+            cell.textLabel?.text = "Pago Tarjeta"
             cell.accessoryType = (indexPath.row == selectedRow?.rawValue) ? .checkmark : .none
         default:
             cell.textLabel?.text = "Others"
@@ -72,14 +97,13 @@ extension PaymentViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         selectedRow = PaymentMethods(rawValue: indexPath.row)
         switch selectedRow {
-        case .creditCard:
-            selectedStrategy = PayByCreditCard()
         case .payPal:
-            selectedStrategy = PayByPayPal()
+            order.strategy = payPalStrategy
+        case .creditCard:
+            order.strategy = crediCardStrategy
         default:
             print("No payment selected")
         }
-        order.strategy = selectedStrategy
         tableView.reloadData()
     }
     

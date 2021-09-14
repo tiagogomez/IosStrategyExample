@@ -18,6 +18,9 @@
 		4D2FE87426D7E7EE009C1420 /* PayByCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2FE87326D7E7EE009C1420 /* PayByCreditCard.swift */; };
 		4D2FE87726D7E912009C1420 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2FE87626D7E912009C1420 /* CreditCard.swift */; };
 		4D2FE87A26D7F6B2009C1420 /* OrderContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2FE87926D7F6B2009C1420 /* OrderContext.swift */; };
+		4DA7952526F1001B00EBFAE7 /* MockCreditCardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7952426F1001B00EBFAE7 /* MockCreditCardService.swift */; };
+		4DA7952726F1003800EBFAE7 /* MockPayPalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7952626F1003800EBFAE7 /* MockPayPalService.swift */; };
+		4DA7952926F110D800EBFAE7 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7952826F110D800EBFAE7 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		4D2FE87326D7E7EE009C1420 /* PayByCreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayByCreditCard.swift; sourceTree = "<group>"; };
 		4D2FE87626D7E912009C1420 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
 		4D2FE87926D7F6B2009C1420 /* OrderContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderContext.swift; sourceTree = "<group>"; };
+		4DA7952426F1001B00EBFAE7 /* MockCreditCardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCreditCardService.swift; sourceTree = "<group>"; };
+		4DA7952626F1003800EBFAE7 /* MockPayPalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPayPalService.swift; sourceTree = "<group>"; };
+		4DA7952826F110D800EBFAE7 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,15 @@
 			path = IosStrategyExample;
 			sourceTree = "<group>";
 		};
+		4DA7952326F0FF6300EBFAE7 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				4DA7952626F1003800EBFAE7 /* MockPayPalService.swift */,
+				4DA7952426F1001B00EBFAE7 /* MockCreditCardService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		4DB01AFB26DFD2D60073EAB5 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +106,7 @@
 				4DB01B0026DFD4D60073EAB5 /* Context */,
 				4DB01AFD26DFD3260073EAB5 /* PayStrategy */,
 				4DB01AFE26DFD33C0073EAB5 /* Models */,
+				4DA7952326F0FF6300EBFAE7 /* Mocks */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -109,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				4D2FE87626D7E912009C1420 /* CreditCard.swift */,
+				4DA7952826F110D800EBFAE7 /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,12 +218,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D2FE85D26D7E16A009C1420 /* PaymentViewController.swift in Sources */,
+				4DA7952526F1001B00EBFAE7 /* MockCreditCardService.swift in Sources */,
 				4D2FE86E26D7E18B009C1420 /* PayStrategy.swift in Sources */,
 				4D2FE87A26D7F6B2009C1420 /* OrderContext.swift in Sources */,
 				4D2FE87726D7E912009C1420 /* CreditCard.swift in Sources */,
+				4DA7952926F110D800EBFAE7 /* UserData.swift in Sources */,
 				4D2FE87426D7E7EE009C1420 /* PayByCreditCard.swift in Sources */,
 				4D2FE85926D7E169009C1420 /* AppDelegate.swift in Sources */,
 				4D2FE87126D7E37B009C1420 /* PayByPayPal.swift in Sources */,
+				4DA7952726F1003800EBFAE7 /* MockPayPalService.swift in Sources */,
 				4D2FE85B26D7E16A009C1420 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

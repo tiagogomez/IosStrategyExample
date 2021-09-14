@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ha-Uh-ByR">
-                                <rect key="frame" x="153.5" y="826" width="107" height="50"/>
+                                <rect key="frame" x="153.5" y="796" width="107" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="rgS-2f-vfM"/>
                                 </constraints>
@@ -34,7 +34,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment Method:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nP5-Zh-gjI">
-                                <rect key="frame" x="112.5" y="616" width="189" height="50"/>
+                                <rect key="frame" x="112.5" y="586" width="189" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="0i2-81-Ts0"/>
                                 </constraints>
@@ -43,12 +43,54 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TtK-2N-Bs3">
-                                <rect key="frame" x="20" y="686" width="374" height="100"/>
+                                <rect key="frame" x="20" y="656" width="374" height="100"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="JBv-gF-opz"/>
                                 </constraints>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Cost:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOl-is-vGk">
+                                <rect key="frame" x="20" y="114" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Eg-6U-Jr2">
+                                <rect key="frame" x="20" y="145" width="100" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="bm2-34-51m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visa CVV Code:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZs-xq-7AM">
+                                <rect key="frame" x="20" y="199" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1m9-hS-Tc8">
+                                <rect key="frame" x="20" y="230" width="100" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="bvJ-hC-UuA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PayPal account:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrW-Ja-B4b">
+                                <rect key="frame" x="20" y="284" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ehs-4C-H1t">
+                                <rect key="frame" x="20" y="315" width="300" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="nOC-Kr-dp0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -56,16 +98,34 @@
                             <constraint firstItem="TtK-2N-Bs3" firstAttribute="top" secondItem="nP5-Zh-gjI" secondAttribute="bottom" constant="20" id="1Jj-T4-DA2"/>
                             <constraint firstItem="5ha-Uh-ByR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8a3-NL-Sb5"/>
                             <constraint firstItem="fb0-MF-ON6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="CS3-cd-ywu"/>
-                            <constraint firstAttribute="bottom" secondItem="5ha-Uh-ByR" secondAttribute="bottom" constant="20" id="FR8-ok-4Xj"/>
+                            <constraint firstAttribute="bottom" secondItem="5ha-Uh-ByR" secondAttribute="bottom" constant="50" id="FR8-ok-4Xj"/>
                             <constraint firstItem="fb0-MF-ON6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="K29-Br-Wr4"/>
+                            <constraint firstItem="5Eg-6U-Jr2" firstAttribute="top" secondItem="JOl-is-vGk" secondAttribute="bottom" constant="10" id="KHv-Jk-Cmy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JOl-is-vGk" secondAttribute="trailing" constant="20" id="Kxc-Ps-QgF"/>
+                            <constraint firstItem="gZs-xq-7AM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LXS-TA-Ecf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fb0-MF-ON6" secondAttribute="trailing" constant="20" id="NQM-4g-yvV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gZs-xq-7AM" secondAttribute="trailing" constant="20" id="OtB-1v-1FT"/>
+                            <constraint firstItem="ehs-4C-H1t" firstAttribute="top" secondItem="zrW-Ja-B4b" secondAttribute="bottom" constant="10" id="SCJ-PN-IBl"/>
                             <constraint firstItem="nP5-Zh-gjI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TDa-KJ-ZMY"/>
+                            <constraint firstItem="ehs-4C-H1t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Yhe-c1-Md2"/>
+                            <constraint firstItem="1m9-hS-Tc8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ZA4-Do-nuf"/>
+                            <constraint firstItem="zrW-Ja-B4b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="aan-WS-N1N"/>
+                            <constraint firstItem="JOl-is-vGk" firstAttribute="top" secondItem="fb0-MF-ON6" secondAttribute="bottom" constant="20" id="dmI-tf-9is"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zrW-Ja-B4b" secondAttribute="trailing" constant="20" id="fRx-pN-oaL"/>
+                            <constraint firstItem="gZs-xq-7AM" firstAttribute="top" secondItem="5Eg-6U-Jr2" secondAttribute="bottom" constant="20" id="hsB-bf-1vh"/>
+                            <constraint firstItem="5Eg-6U-Jr2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ixR-M6-Goi"/>
+                            <constraint firstItem="JOl-is-vGk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jwN-du-knH"/>
                             <constraint firstItem="TtK-2N-Bs3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="q1B-sz-Lfd"/>
+                            <constraint firstItem="1m9-hS-Tc8" firstAttribute="top" secondItem="gZs-xq-7AM" secondAttribute="bottom" constant="10" id="qM0-WB-FAm"/>
                             <constraint firstItem="5ha-Uh-ByR" firstAttribute="top" secondItem="TtK-2N-Bs3" secondAttribute="bottom" constant="40" id="xpp-QH-OdP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TtK-2N-Bs3" secondAttribute="trailing" constant="20" id="xyZ-CY-Ffr"/>
+                            <constraint firstItem="zrW-Ja-B4b" firstAttribute="top" secondItem="1m9-hS-Tc8" secondAttribute="bottom" constant="20" id="yKS-vF-EsY"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="costTextField" destination="5Eg-6U-Jr2" id="7ah-yA-J3c"/>
+                        <outlet property="cvvTextField" destination="1m9-hS-Tc8" id="wYz-ub-ObX"/>
+                        <outlet property="payPalTextField" destination="ehs-4C-H1t" id="0fJ-jJ-dG8"/>
                         <outlet property="tableView" destination="TtK-2N-Bs3" id="gh1-TR-qC5"/>
                     </connections>
                 </viewController>

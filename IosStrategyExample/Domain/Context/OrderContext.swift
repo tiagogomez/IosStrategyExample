@@ -18,12 +18,15 @@ class OrderContext {
     private(set) var isClosed: Bool = false
     var strategy: PayStrategy?
     
-    func processOrder() {
-        try? strategy?.collectPaymentDetails()
+    func processOrder() throws {
+        try strategy?.collectPaymentDetails()
     }
     
-    func payOrder() {
-        _ = strategy?.pay(paymentAmount: totalCost ?? 0)
+    func payOrder() throws -> Bool {
+        guard let paymentSuccesful = strategy?.pay(paymentAmount: totalCost ?? 0) else {
+            return false
+        }
+        return paymentSuccesful
     }
     
     func setTotalCost(cost: Int) {
