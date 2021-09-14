@@ -20,6 +20,6 @@ class MockCreditCardService {
     }
     
     static func payWithCard(amount: Int) -> Bool {
-        return amount < 100000 
+        return amount <= 100000 
     }
 }

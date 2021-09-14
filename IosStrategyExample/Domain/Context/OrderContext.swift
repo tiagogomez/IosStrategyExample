@@ -22,7 +22,7 @@ class OrderContext {
         try strategy?.collectPaymentDetails()
     }
     
-    func payOrder() throws -> Bool {
+    func payOrder() -> Bool {
         guard let paymentSuccesful = strategy?.pay(paymentAmount: totalCost ?? 0) else {
             return false
         }
@@ -36,5 +36,11 @@ class OrderContext {
     func setClosed() {
         self.isClosed = true
     }
+}
+
+enum PaymentErrors: Error {
+    
+    case userDataFailure(errorMessage: String)
+    case paymentFailure
 }
 

@@ -15,24 +15,18 @@ class PayByPayPal: PayStrategy {
     var userEmail: String?
     
     func collectPaymentDetails() throws {
-        guard let user = userEmail else {
-            print("Failure")
-            return
+        guard let user = userEmail, user != String() else {
+            throw PaymentErrors.userDataFailure(errorMessage: "Invalid User Email")
         }
         
         let userData = MockPayPalService.getUserData()
         
         guard MockPayPalService.validateUser(user: user, userData: userData) else {
-            print("Failure")
-            return
+            throw PaymentErrors.userDataFailure(errorMessage: "User email does not match")
         }
     }
     
     func pay(paymentAmount: Int) -> Bool {
         return MockPayPalService.payWithPayPal(amount: paymentAmount)
     }
-}
-
-enum PayPalErrors: Error {
-    case UserError
 }

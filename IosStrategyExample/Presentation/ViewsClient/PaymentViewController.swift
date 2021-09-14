@@ -48,6 +48,16 @@ class PaymentViewController: UIViewController {
         crediCardStrategy.cardCVV = cvv
     }
     
+    func presentAlertMessage(title: String, message: String) {
+        let alert = UIAlertController(title: title,
+                                      message: message,
+                                      preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "OK",
+                                      style: UIAlertAction.Style.default,
+                                      handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     @IBAction func payButtonPressed(_ sender: Any) {
         /**
          * Client code
@@ -56,17 +66,16 @@ class PaymentViewController: UIViewController {
         order.setClosed()
         do {
             try order.processOrder()
+        } catch PaymentErrors.userDataFailure(let errorMessage) {
+            presentAlertMessage(title: "User Data Failure", message: errorMessage)
         } catch {
-            
+            presentAlertMessage(title: "User Data Failure", message: "Unknow Error")
         }
-        do {
-            guard try order.payOrder() else {
-                
-                return
-            }
-        } catch {
-            
+        guard order.payOrder() else {
+            presentAlertMessage(title: "Payment Failure", message: "No funds, poor")
+            return
         }
+        presentAlertMessage(title: "Success", message: "payment successful")
     }
 }
 

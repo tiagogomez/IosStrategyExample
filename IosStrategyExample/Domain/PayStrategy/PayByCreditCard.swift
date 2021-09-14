@@ -16,15 +16,13 @@ class PayByCreditCard: PayStrategy {
     
     func collectPaymentDetails() throws {
 
-        guard let cvv = cardCVV else {
-            print("Failure")
-            return
+        guard let cvv = cardCVV, cvv != String() else {
+            throw PaymentErrors.userDataFailure(errorMessage: "Invalid CVV")
         }
         
         let card = MockCreditCardService.getCreditCardData()
         guard MockCreditCardService.validateCVV(cvv: cvv, creditCard: card) else {
-            print("Failure")
-            return
+            throw PaymentErrors.userDataFailure(errorMessage: "CVV does not match")
         }
     }
     

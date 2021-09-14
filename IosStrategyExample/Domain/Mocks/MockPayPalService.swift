@@ -20,6 +20,6 @@ class MockPayPalService {
     }
     
     static func payWithPayPal(amount: Int) -> Bool {
-        return amount < 100
+        return amount <= 100
     }
 }
