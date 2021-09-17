@@ -11,7 +11,7 @@ class PaymentViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    private var order = OrderContext()
+    private var order: OrderContext?
     private var payPalStrategy = PayByPayPal()
     private var crediCardStrategy = PayByCreditCard()
     private var selectedRow: PaymentMethods?
@@ -21,7 +21,6 @@ class PaymentViewController: UIViewController {
     @IBOutlet weak var payPalTextField: UITextField!
     
     enum PaymentMethods: Int, CaseIterable {
-        
         case payPal
         case creditCard
     }
@@ -34,12 +33,14 @@ class PaymentViewController: UIViewController {
     }
     
     private func setupTableView() {
+        order = OrderContext(payStrategy: payPalStrategy)
+        selectedRow = .payPal
         tableView.isScrollEnabled = false
     }
     
     private func collectViewData() {
         let cost = Int(costTextField.text ?? "0") ?? 0
-        order.setTotalCost(cost: cost)
+        order?.setTotalCost(cost: cost)
         
         let paypalData = payPalTextField.text
         payPalStrategy.userEmail = paypalData
@@ -62,19 +63,23 @@ class PaymentViewController: UIViewController {
         /**
          * Client code
          */
+        guard let order = order else {
+            return
+        }
         collectViewData()
         order.setClosed()
+        
         do {
-            try order.processOrder()
+            guard try order.processOrder() else {
+                presentAlertMessage(title: "Payment Failure", message: "No funds, poor")
+                return
+            }
         } catch PaymentErrors.userDataFailure(let errorMessage) {
             presentAlertMessage(title: "User Data Failure", message: errorMessage)
         } catch {
             presentAlertMessage(title: "User Data Failure", message: "Unknow Error")
         }
-        guard order.payOrder() else {
-            presentAlertMessage(title: "Payment Failure", message: "No funds, poor")
-            return
-        }
+        
         presentAlertMessage(title: "Success", message: "payment successful")
     }
 }
@@ -107,9 +112,9 @@ extension PaymentViewController: UITableViewDelegate, UITableViewDataSource {
         selectedRow = PaymentMethods(rawValue: indexPath.row)
         switch selectedRow {
         case .payPal:
-            order.strategy = payPalStrategy
+            order?.strategy = payPalStrategy
         case .creditCard:
-            order.strategy = crediCardStrategy
+            order?.strategy = crediCardStrategy
         default:
             print("No payment selected")
         }

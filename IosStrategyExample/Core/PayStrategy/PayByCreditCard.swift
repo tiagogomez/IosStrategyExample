@@ -15,7 +15,6 @@ class PayByCreditCard: PayStrategy {
     var cardCVV: String?
     
     func collectPaymentDetails() throws {
-
         guard let cvv = cardCVV, cvv != String() else {
             throw PaymentErrors.userDataFailure(errorMessage: "Invalid CVV")
         }

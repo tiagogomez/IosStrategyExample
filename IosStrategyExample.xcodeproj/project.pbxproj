@@ -72,8 +72,9 @@
 		4D2FE85726D7E169009C1420 /* IosStrategyExample */ = {
 			isa = PBXGroup;
 			children = (
-				4DB01AFC26DFD2ED0073EAB5 /* Domain */,
-				4DB01AFB26DFD2D60073EAB5 /* Presentation */,
+				4DB01AFE26DFD33C0073EAB5 /* Models */,
+				4DB01AFC26DFD2ED0073EAB5 /* Core */,
+				4DB01AFB26DFD2D60073EAB5 /* Views */,
 				4D2FE86126D7E16E009C1420 /* Assets.xcassets */,
 				4D2FE86626D7E16E009C1420 /* Info.plist */,
 			);
@@ -89,26 +90,25 @@
 			path = Mocks;
 			sourceTree = "<group>";
 		};
-		4DB01AFB26DFD2D60073EAB5 /* Presentation */ = {
+		4DB01AFB26DFD2D60073EAB5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4DB01AFF26DFD4180073EAB5 /* ViewsClient */,
+				4DB01AFF26DFD4180073EAB5 /* Client */,
 				4D2FE85826D7E169009C1420 /* AppDelegate.swift */,
 				4D2FE85A26D7E16A009C1420 /* SceneDelegate.swift */,
 				4D2FE86326D7E16E009C1420 /* LaunchScreen.storyboard */,
 			);
-			path = Presentation;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		4DB01AFC26DFD2ED0073EAB5 /* Domain */ = {
+		4DB01AFC26DFD2ED0073EAB5 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				4DB01B0026DFD4D60073EAB5 /* Context */,
 				4DB01AFD26DFD3260073EAB5 /* PayStrategy */,
-				4DB01AFE26DFD33C0073EAB5 /* Models */,
+				4DB01B0026DFD4D60073EAB5 /* Context */,
 				4DA7952326F0FF6300EBFAE7 /* Mocks */,
 			);
-			path = Domain;
+			path = Core;
 			sourceTree = "<group>";
 		};
 		4DB01AFD26DFD3260073EAB5 /* PayStrategy */ = {
@@ -130,13 +130,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		4DB01AFF26DFD4180073EAB5 /* ViewsClient */ = {
+		4DB01AFF26DFD4180073EAB5 /* Client */ = {
 			isa = PBXGroup;
 			children = (
 				4D2FE85C26D7E16A009C1420 /* PaymentViewController.swift */,
 				4D2FE85E26D7E16A009C1420 /* Main.storyboard */,
 			);
-			path = ViewsClient;
+			path = Client;
 			sourceTree = "<group>";
 		};
 		4DB01B0026DFD4D60073EAB5 /* Context */ = {
