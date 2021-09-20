@@ -16,7 +16,7 @@ class OrderContext {
     
     private(set) var totalCost: Int?
     private(set) var isClosed: Bool = false
-    var strategy: PayStrategy
+    private var strategy: PayStrategy
     
     init(payStrategy: PayStrategy) {
         self.strategy = payStrategy
@@ -33,6 +33,10 @@ class OrderContext {
     
     func setClosed() {
         self.isClosed = true
+    }
+    
+    func setStrategy(_ strategy: PayStrategy) {
+        self.strategy = strategy
     }
 }
 

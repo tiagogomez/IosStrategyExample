@@ -71,330 +71,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8B5EB7FF-9C8D-4B43-82D5-9B6AA3D72ECE"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IosStrategyExample/Views/Client/PaymentViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "PaymentViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "8B5EB7FF-9C8D-4B43-82D5-9B6AA3D72ECE - fa5b2544ce99e2ad"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.order.getter : Swift.Optional&lt;IosStrategyExample.OrderContext&gt;"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "122">
-               </Location>
-               <Location
-                  uuid = "8B5EB7FF-9C8D-4B43-82D5-9B6AA3D72ECE - 5d24f3c1059108a1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.order.setter : Swift.Optional&lt;IosStrategyExample.OrderContext&gt;"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "148">
-               </Location>
-               <Location
-                  uuid = "8B5EB7FF-9C8D-4B43-82D5-9B6AA3D72ECE - b9852430c49cfb06"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.order.modify : Swift.Optional&lt;IosStrategyExample.OrderContext&gt;"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  uuid = "8B5EB7FF-9C8D-4B43-82D5-9B6AA3D72ECE - 6a14ba3d2fd9a342"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.order.modify : Swift.Optional&lt;IosStrategyExample.OrderContext&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "8">
-               </Location>
-               <Location
-                  uuid = "8B5EB7FF-9C8D-4B43-82D5-9B6AA3D72ECE - 5cebc3d5a68b4696"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; IosStrategyExample.PaymentViewController"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "334">
-               </Location>
-               <Location
-                  uuid = "8B5EB7FF-9C8D-4B43-82D5-9B6AA3D72ECE - 422ae8fc7d489b14"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;IosStrategyExample.PaymentViewController&gt;"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "278">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2718F52A-84FD-48DF-AE91-0FC354FC035C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IosStrategyExample/Views/Client/PaymentViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "PaymentViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "2718F52A-84FD-48DF-AE91-0FC354FC035C - 38f22a39a91993fb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.payPalStrategy.getter : IosStrategyExample.PayByPayPal"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "122">
-               </Location>
-               <Location
-                  uuid = "2718F52A-84FD-48DF-AE91-0FC354FC035C - cbe1fce33e0c5bf7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.payPalStrategy.setter : IosStrategyExample.PayByPayPal"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "148">
-               </Location>
-               <Location
-                  uuid = "2718F52A-84FD-48DF-AE91-0FC354FC035C - fdfcffba64c403c9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.payPalStrategy.modify : IosStrategyExample.PayByPayPal"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  uuid = "2718F52A-84FD-48DF-AE91-0FC354FC035C - 1b342667c54852d1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.payPalStrategy.modify : IosStrategyExample.PayByPayPal with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "8">
-               </Location>
-               <Location
-                  uuid = "2718F52A-84FD-48DF-AE91-0FC354FC035C - 5cebc3d5a68b4671"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; IosStrategyExample.PaymentViewController"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "368">
-               </Location>
-               <Location
-                  uuid = "2718F52A-84FD-48DF-AE91-0FC354FC035C - 422ae8fc7d489bf3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;IosStrategyExample.PaymentViewController&gt;"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "312">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "57C204FE-51A6-462F-AFC0-7CE77A57A93F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IosStrategyExample/Views/Client/PaymentViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "PaymentViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "57C204FE-51A6-462F-AFC0-7CE77A57A93F - 25f7cfeab3d448df"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.crediCardStrategy.getter : IosStrategyExample.PayByCreditCard"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "122">
-               </Location>
-               <Location
-                  uuid = "57C204FE-51A6-462F-AFC0-7CE77A57A93F - b880e9f4e58961ab"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.crediCardStrategy.setter : IosStrategyExample.PayByCreditCard"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "148">
-               </Location>
-               <Location
-                  uuid = "57C204FE-51A6-462F-AFC0-7CE77A57A93F - 65865ff16f09e88a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.crediCardStrategy.modify : IosStrategyExample.PayByCreditCard"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  uuid = "57C204FE-51A6-462F-AFC0-7CE77A57A93F - 113581f3bdc8375f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.crediCardStrategy.modify : IosStrategyExample.PayByCreditCard with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "8">
-               </Location>
-               <Location
-                  uuid = "57C204FE-51A6-462F-AFC0-7CE77A57A93F - 5cebc3d5a68b4650"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; IosStrategyExample.PaymentViewController"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "432">
-               </Location>
-               <Location
-                  uuid = "57C204FE-51A6-462F-AFC0-7CE77A57A93F - 422ae8fc7d489bd2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "IosStrategyExample.PaymentViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;IosStrategyExample.PaymentViewController&gt;"
-                  moduleName = "IosStrategyExample"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "376">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "EAE6CAC9-3E18-4148-9BB5-AF0C5AAA811E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -443,17 +119,325 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D3AFCE95-C777-4ADC-AB67-78C1E06DDD6B"
+            uuid = "905F1A51-0A28-4673-AF5B-36BF113691BB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IosStrategyExample/Views/Client/PaymentViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "collectViewData()"
-            landmarkType = "7">
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "PaymentViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "905F1A51-0A28-4673-AF5B-36BF113691BB - fa5b2544ce99e2ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.order.getter : Swift.Optional&lt;IosStrategyExample.OrderContext&gt;"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "905F1A51-0A28-4673-AF5B-36BF113691BB - 5d24f3c1059108a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.order.setter : Swift.Optional&lt;IosStrategyExample.OrderContext&gt;"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "905F1A51-0A28-4673-AF5B-36BF113691BB - b9852430c49cfb06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.order.modify : Swift.Optional&lt;IosStrategyExample.OrderContext&gt;"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "905F1A51-0A28-4673-AF5B-36BF113691BB - 6a14ba3d2fd9a342"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.order.modify : Swift.Optional&lt;IosStrategyExample.OrderContext&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "905F1A51-0A28-4673-AF5B-36BF113691BB - 5cebc3d5a68b4696"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; IosStrategyExample.PaymentViewController"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "334">
+               </Location>
+               <Location
+                  uuid = "905F1A51-0A28-4673-AF5B-36BF113691BB - 422ae8fc7d489b14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;IosStrategyExample.PaymentViewController&gt;"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "278">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1255844-E20D-4BF8-B833-E7DBD8141D62"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosStrategyExample/Views/Client/PaymentViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "PaymentViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B1255844-E20D-4BF8-B833-E7DBD8141D62 - 38f22a39a91993fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.payPalStrategy.getter : IosStrategyExample.PayByPayPal"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "B1255844-E20D-4BF8-B833-E7DBD8141D62 - cbe1fce33e0c5bf7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.payPalStrategy.setter : IosStrategyExample.PayByPayPal"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "B1255844-E20D-4BF8-B833-E7DBD8141D62 - fdfcffba64c403c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.payPalStrategy.modify : IosStrategyExample.PayByPayPal"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "B1255844-E20D-4BF8-B833-E7DBD8141D62 - 1b342667c54852d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.payPalStrategy.modify : IosStrategyExample.PayByPayPal with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "B1255844-E20D-4BF8-B833-E7DBD8141D62 - 5cebc3d5a68b4671"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; IosStrategyExample.PaymentViewController"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "368">
+               </Location>
+               <Location
+                  uuid = "B1255844-E20D-4BF8-B833-E7DBD8141D62 - 422ae8fc7d489bf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;IosStrategyExample.PaymentViewController&gt;"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC244EB5-8EAC-47C4-8D84-60A481FBC7F1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosStrategyExample/Views/Client/PaymentViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "PaymentViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CC244EB5-8EAC-47C4-8D84-60A481FBC7F1 - 25f7cfeab3d448df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.crediCardStrategy.getter : IosStrategyExample.PayByCreditCard"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "CC244EB5-8EAC-47C4-8D84-60A481FBC7F1 - b880e9f4e58961ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.crediCardStrategy.setter : IosStrategyExample.PayByCreditCard"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "CC244EB5-8EAC-47C4-8D84-60A481FBC7F1 - 65865ff16f09e88a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.crediCardStrategy.modify : IosStrategyExample.PayByCreditCard"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "CC244EB5-8EAC-47C4-8D84-60A481FBC7F1 - 113581f3bdc8375f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.crediCardStrategy.modify : IosStrategyExample.PayByCreditCard with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "CC244EB5-8EAC-47C4-8D84-60A481FBC7F1 - 5cebc3d5a68b4650"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; IosStrategyExample.PaymentViewController"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "CC244EB5-8EAC-47C4-8D84-60A481FBC7F1 - 422ae8fc7d489bd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosStrategyExample.PaymentViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;IosStrategyExample.PaymentViewController&gt;"
+                  moduleName = "IosStrategyExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/santiago.gomez/Documents/SwiftProjects/IosStrategyExample/IosStrategyExample/Views/Client/PaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "376">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

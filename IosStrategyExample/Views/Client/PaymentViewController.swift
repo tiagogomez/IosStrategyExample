@@ -112,13 +112,12 @@ extension PaymentViewController: UITableViewDelegate, UITableViewDataSource {
         selectedRow = PaymentMethods(rawValue: indexPath.row)
         switch selectedRow {
         case .payPal:
-            order?.strategy = payPalStrategy
+            order?.setStrategy(payPalStrategy)
         case .creditCard:
-            order?.strategy = crediCardStrategy
+            order?.setStrategy(crediCardStrategy)
         default:
             print("No payment selected")
         }
         tableView.reloadData()
     }
-    
 }
